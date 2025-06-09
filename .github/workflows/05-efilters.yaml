@@ -7,6 +7,7 @@ on:
 jobs:
   echo: 
     steps:
-      run: echo "Running whenever branch is features ${{ runner.os }}"
+      - name: mostrar_mensaje
+        run: echo "Running whenever branch is features ${{ runner.os }}"
 
 
