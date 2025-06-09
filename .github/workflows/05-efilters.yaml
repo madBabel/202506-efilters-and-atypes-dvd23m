@@ -1,0 +1,12 @@
+name: 05 - Event Filters
+on:
+  push:
+    branch:
+      - features
+
+jobs:
+  echo: 
+    steps:
+      run: echo "Running whenever branch is features ${{ runner.os }}"
+
+
