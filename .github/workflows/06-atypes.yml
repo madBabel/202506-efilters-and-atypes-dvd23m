@@ -1,0 +1,14 @@
+name: 06 Activity Types
+on:
+  - pull_request:
+      Types: [opened, synchronize]
+      branch:
+        - develop
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mostrar_mensaje
+        echo: 'Running whenever a PR is opened or synchronize And base is develop'
+
