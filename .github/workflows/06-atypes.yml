@@ -1,6 +1,6 @@
 name: 06 Activity Types
 on:
-  - pull_request:
+   pull_request:
       Types: [opened, synchronize]
       branch:
         - develop
