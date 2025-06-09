@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mostrar_mensaje
-        run: echo "Running whenever branch is features ${{ runner.os }}"
+        run: echo "Running whenever branch is features"
 
 

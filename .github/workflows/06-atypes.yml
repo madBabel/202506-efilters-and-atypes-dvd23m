@@ -10,5 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mostrar_mensaje
-        echo: 'Running whenever a PR is opened or synchronize And base is develop'
-
+        run: echo 'Running whenever a PR is opened or synchronize And base is develop'
